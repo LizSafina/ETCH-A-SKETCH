@@ -1,0 +1,42 @@
+body{
+    display:block;
+    background-color: rgba(44, 54, 11, 0.712);
+}
+    
+
+h1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main{
+    display:flex;
+    justify-content: center;
+
+}
+#holder{
+    display: grid;
+    width: 480px;
+    height: 480px;
+    border:5px solid black;
+    background-color: aliceblue;
+    
+}
+
+.cell{
+    border: 1px solid black;
+    
+}
+
+    
+
+#btnHolder{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+#start{
+    display: flex;
+    outline: none;
+     
+}
